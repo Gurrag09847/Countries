@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+body {
+    font-family: 'Roboto', monospace;
+    min-height: 100vh;
+    color: #555;
+}
+
+.flags{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 50px;
+    margin:  50px auto;
+    max-width: 1240px;
+    min-width: 350px;
+    padding: 20px;
+}
+
+.flag {
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    background-color: #E9E9E9;
+}
+
+.flag img {
+    width: 100%;
+    display: block;
+}
+
+.flag .title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.flag .description{
+    padding:  0 20px 20px 20px;
+    line-height: 22px;
+    word-wrap: break-word;
+}
